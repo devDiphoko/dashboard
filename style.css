@@ -223,3 +223,12 @@ nav .profile-area .profile-photo {
 nav .profile-area button {
     display: none;
 }
+
+main {
+    display:grid;
+    grid-template-columns: 16rem auto 30rem;
+}
+
+main section {
+    background-color: black;
+}
