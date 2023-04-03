@@ -24,3 +24,5 @@ new Chart(chart, {
         responsive: true
     }
 })
+
+//toggle
