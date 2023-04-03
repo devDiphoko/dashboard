@@ -24,3 +24,17 @@ new Chart(chart, {
         responsive: true
     }
 })
+
+//toggle
+
+const menuBtn = document.querySelector('#menu-btn');
+const closebtn = document.querySelector('#close-btn');
+const sidebar = document.querySelector('aside');
+
+menuBtn.addEventListener('click', () => {
+    sidebar.style.display = 'block';
+})
+
+closebtn.addEventListener('click', () => {
+    sidebar.style.display = 'none';
+})
