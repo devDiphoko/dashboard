@@ -26,7 +26,12 @@
 
 /*dark theme variables*/
 
-
+.dark-theme {
+    --color-white: #131316;
+    --color-light: #23232a;
+    --color-dark: #ddd;
+    --color-gray-dark: #adacb5;
+}
 
 * {
     margin: 0;
