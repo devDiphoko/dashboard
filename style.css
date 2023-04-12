@@ -570,6 +570,30 @@ main section.right .investments .investment:hover {
 }
 
 
+/*footer*/
+
+.text-center {
+    text-align: center!important;
+}
+
+
+.bg-info, .bg-light {
+    --mdb--bg-opacity: 1;
+}
+
+.text-lg-start {
+    text-align: left!important;
+}
+
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+.text-reset {
+    --mdb-text-opacity: 1;
+    color: inherit!important;
+}
 /* Media Query */
 
 @media screen and   (max-width: 1024px) {
