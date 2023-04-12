@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashbaord - Exchange</title>
+    <!-- Material Icons Cdn -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- Google Fonts (POPPINS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="./images/logo.png" alt="logo" class="logo">
+            <div class="search-bar">
+                <span class="material-icons-sharp">search</span>
+                <input type="search" placeholder="search">
+            </div>
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <h5>
+                        Obakeng Diphoko
+                    </h5>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button>
+
+            <div class="sidebar">
+                <a href="/index.html">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h4>Dashbaord</h4>
+                </a>
+                <a href="/page404-exchange.html">
+                    <span class="material-icons-sharp">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="/page404-wallet.html">
+                    <span class="material-icons-sharp">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="/page404-transaction.html">
+                    <span class="material-icons-sharp">payment</span>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="/page404-analystics.html">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h4>Analystics</h4>
+                </a>
+                <a href="/page404-messages.html">
+                    <span class="material-icons-sharp">message</span>
+                    <h4>Messages</h4>
+                </a>
+                <a href="/page404-helpCenter.html" class="active">
+                    <span class="material-icons-sharp">help_center</span>
+                    <h4>Help center</h4>
+                </a>
+                <a href="/page404-settings.html">
+                    <span class="material-icons-sharp">settings</span>
+                    <h4>Settings</h4>
+                </a>
+            </div>
+
+            <div class="updates">
+                <span class="material-icons-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p>General Updates</p>
+                <a href="/page404-upgrade.html">update Now</a>
+            </div>
+        </aside>
+
+        <section class="middle">
+            <div class="pg404">
+                <div class="pg404Img">
+                    <img src="/images/construction.png" alt="">
+                </div>
+                <div class="pg404Content">
+                    <h1>404</h1>
+                    <h3>UNDER</h3>
+                    <h3>construction</h3>
+                    <center>
+                        <a href="/index.html">RETURN HOME</a>
+                    </center>
+
+                </div>
+            </div>
+        </section>
+
+    
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>    
+</body>
+
+</html>
