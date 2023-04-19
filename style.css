@@ -366,7 +366,7 @@ main section.middle .cards .card:nth-child(2) {
 }
 
 main section.middle .cards .card:nth-child(3) {
-    background: linear-gradient(#5d70ff, #5719c2);
+    background: linear-gradient(#051170, #2f0a6e);
     box-shadow: 0 2rem var(--color-primary-light);
 }
 
